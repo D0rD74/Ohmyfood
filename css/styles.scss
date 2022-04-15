@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100,400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+$bg-light:#f6f6f6;
+
+a {
+    color:black; 
+    text-decoration:none;
+}
+
+h1 {
+    font-size:130%;
+    margin:0px 0px;
+}
+
+h1, h2, h3, h4, h5, a, strong, b {
+    font-weight:700;
+}
+
+p {
+    margin:10px 0px;
+    color:#6e6e6e;
+}
+
+html {
+
+    body{
+        font-family: Roboto;
+        font-size:100%;
+        font-weight:100;
+    }
+}
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+    .content {
+        width:80%;
+        max-width:1440px;
+    }
+}
+
+.flex-auto {
+    flex: 1 1 auto!important;
+}
+
+.wrap {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.collumn-wrap {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+}
+
+.radius {
+    border-radius:50px;
+    -moz-border-radius:50px;
+}
+
+.btn {
+    background: rgb(180,96,219);
+    background: linear-gradient(0deg, rgba(180,96,219,1) 0%, rgba(180,96,219,1) 35%, rgba(235,114,218,1) 100%);
+    color:white;
+    padding:15px;
+    font-weight:100;
+}
+
+.btn:hover {
+    background: rgb(180,96,219);
+    background: linear-gradient(0deg, rgba(180,96,219,1) 0%, rgba(180,96,219,1) 35%, rgba(223,92,204,1) 100%);
+}
+
+.btn:focus {
+    background: rgb(180,96,219);
+    background: linear-gradient(10deg, rgba(180,96,219,1) 0%, rgba(180,96,219,1) 75%, rgba(235,114,218,1) 100%);
+}
+
+header {
+    width:100%;
+    margin-bottom:30px;
+    
+    .container {
+        background-color:#eaeaea;
+
+        .header.content{
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            padding:10px 0px;
+
+            #logo {
+                width:150px;
+            }
+        
+            i {
+                margin-right:5px;
+                color:#2f2f2f;
+            }
+        }
+
+        .to_book {
+            background-color: $bg-light;
+            width:100%;
+            padding:30px 15px;
+            text-align:center;
+
+            p {
+                font-size:110%;
+
+                a {
+                    display:inline-block;
+                    margin-top:30px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color:#353535;
+    color:white;
+    padding-bottom:30px;
+    margin-top:30px;
+
+    h3 {
+        font-family: Shrikhand;
+        margin:20px 0px 15px 0px;
+        font-size:90%;
+    }
+
+    a {
+        color:white;
+        font-weight:100;
+        display:block;
+    }
+}

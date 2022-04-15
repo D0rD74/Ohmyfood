@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100,400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 130%;
+  margin: 0px 0px;
+}
+
+h1, h2, h3, h4, h5, a, strong, b {
+  font-weight: 700;
+}
+
+p {
+  margin: 10px 0px;
+  color: #6e6e6e;
+}
+
+html body {
+  font-family: Roboto;
+  font-size: 100%;
+  font-weight: 100;
+}
+
+.container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .content {
+  width: 80%;
+  max-width: 1440px;
+}
+
+.flex-auto {
+  -webkit-box-flex: 1 !important;
+      -ms-flex: 1 1 auto !important;
+          flex: 1 1 auto !important;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.collumn-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.radius {
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+}
+
+.btn {
+  background: #b460db;
+  background: -webkit-gradient(linear, left bottom, left top, from(#b460db), color-stop(35%, #b460db), to(#eb72da));
+  background: linear-gradient(0deg, #b460db 0%, #b460db 35%, #eb72da 100%);
+  color: white;
+  padding: 15px;
+  font-weight: 100;
+}
+
+.btn:hover {
+  background: #b460db;
+  background: -webkit-gradient(linear, left bottom, left top, from(#b460db), color-stop(35%, #b460db), to(#df5ccc));
+  background: linear-gradient(0deg, #b460db 0%, #b460db 35%, #df5ccc 100%);
+}
+
+.btn:focus {
+  background: #b460db;
+  background: linear-gradient(10deg, #b460db 0%, #b460db 75%, #eb72da 100%);
+}
+
+header {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+header .container {
+  background-color: #eaeaea;
+}
+
+header .container .header.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+}
+
+header .container .header.content #logo {
+  width: 150px;
+}
+
+header .container .header.content i {
+  margin-right: 5px;
+  color: #2f2f2f;
+}
+
+header .container .to_book {
+  background-color: #f6f6f6;
+  width: 100%;
+  padding: 30px 15px;
+  text-align: center;
+}
+
+header .container .to_book p {
+  font-size: 110%;
+}
+
+header .container .to_book p a {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+footer h3 {
+  font-family: Shrikhand;
+  margin: 20px 0px 15px 0px;
+  font-size: 90%;
+}
+
+footer a {
+  color: white;
+  font-weight: 100;
+  display: block;
+}
+/*# sourceMappingURL=styles.css.map */
