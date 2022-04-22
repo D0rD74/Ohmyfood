@@ -329,6 +329,7 @@ article:last-child {
   font-weight: 400;
   -webkit-box-shadow: 2px 5px 16px 0px #d0d0d0, inset 5px 5px 15px 5px rgba(0, 0, 0, 0);
   box-shadow: 2px 5px 16px 0px #d0d0d0, inset 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  display: inline-block;
 }
 
 .btn:hover {
@@ -343,6 +344,11 @@ article:last-child {
 .btn:focus {
   background: #b460db;
   background: linear-gradient(10deg, #b460db 0%, #b460db 75%, #eb72da 100%);
+}
+
+.btn--large {
+  padding: 15px 50px;
+  margin: 15px auto 30px auto;
 }
 
 .heart {
